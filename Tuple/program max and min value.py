@@ -1,0 +1,10 @@
+t=()
+n=int(input('Enter no of elements:'))
+for i in range (n):
+    e=int(input('Enter value:'))
+    t+=(e,)
+print(t)
+mx=max(t)
+mn=min(t)
+print('Maximum value:',mx)
+print('Minimum value:',mn)
